@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for i in range(100):
-    if i < 10:
-        print(f"0{i}".format(), end='')
+for number in range(100):
+    if (number != 99):
+        print("{}{}, ".format(int(number / 10), number % 10), end="")
     else:
-        print(f"{i}".format(), end='')
+        print("{}{}".format(int(number / 10), number % 10))
