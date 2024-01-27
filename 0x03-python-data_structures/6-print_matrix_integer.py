@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+"""Function that prints a matrix of integers"""
+
+
+def print_matrix_integer(matrix=[[]]):
+    for row in matrix:
+        for i in len(row):
+            if i == len(row):
+                print ("{:d}".format(row[i], end=""))
+            else:
+                print ("{:d}".format(row[i], end=" "))
