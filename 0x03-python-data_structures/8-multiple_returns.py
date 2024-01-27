@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Function that returns a tuple with the length of a string and its first character"""
+"""Function that returns a tuple with the length of 
+a string and its first character"""
 
 
 def multiple_returns(sentence):
     if len(sentence) == 0:
-        sentence[0] = None
+        first_char = None
     else:
-        return ((len(sentence), sentence[0]))
-
-    
+        first_char = sectence[0]
+    return ((len(sentence), first_char))
