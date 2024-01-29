@@ -2,7 +2,7 @@
 """function that finds all multiple of 2 in a list"""
 
 
-def divisible_by_2(my_list-[]):
+def divisible_by_2(my_list=[]):
     if len(my_list) == 0:
         return None
     result_list = []
