@@ -4,6 +4,7 @@
 A function that returns the weighted avarage of all integer
 """
 
+
 def weight_average(my_list=[]):
     if my_list and len(my_list):
         num = 0
